@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.btn{
+    color: white;
+}
+.fadelab{
+color: white;
+}
+img{
+    height: 500px;
+}
+    
+.container-fluid {
+    background-color: black;
+    text-align: center;
+    
+    
+}
+#navbarNav a{
+    color: whitesmoke;
+
+}
+.navbar-brand{
+    color: white;
+}
