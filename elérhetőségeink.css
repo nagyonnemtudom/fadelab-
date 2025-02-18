@@ -23,15 +23,14 @@ img{
     
 }
 #navbarNav a{
-    color: whitesmoke;
+    color: white;
 
 }
 .navbar-brand{
     color: white;
 }
-.container{
+p{
     background-color: black;
     color: white;
-    max-width: 100%;
-    background-image: url(./képek/10133\ 3.png)
+    
 }
