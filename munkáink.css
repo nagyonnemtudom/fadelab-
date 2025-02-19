@@ -40,8 +40,8 @@ img{
 }
 .Munkatársaink{
     background-color: black;
-    color: white;
-    margin-bottom: 50px;
+    color: whitesmoke;
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
@@ -69,4 +69,20 @@ img{
 .tagok h4{
     margin-top: 5px;
     font-size: 14px;
+}
+
+.kepek{
+    background-color: black;
+    flex-direction: column;
+}
+
+.kepek img{
+    width: 300px;
+    height: 300px;
+    gap: 100px;
+}
+
+.kepek h4{
+    color: white;
+    text-align: center;
 }
