@@ -38,11 +38,35 @@ img{
 
     
 }
-h4{
+.Munkatársaink{
     background-color: black;
-    color: white;
-    max-width: 100%;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
     text-align: center;
-    margin-left: 10;
-    margin-right: 10 ;
-    }
+}
+ 
+.csapat{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+ 
+.tagok{
+    color: white;
+    text-align: center;
+}
+ 
+.tagok img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+ 
+.tagok h4{
+    margin-top: 5px;
+    font-size: 14px;
+}
