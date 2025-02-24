@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bejelentkezés.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadelab - Bejelentkezés</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        input {
+            display: block;
+            width: 300px;
+            padding: 15px;
+            margin: 10px auto;
+            border: none;
+            border-radius: 10px;
+            background-color: #d9d9d9;
+            font-size: 16px;
+            color: black;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .social-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #d9d9d9;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .social-button img {
+            width: 30px;
+            height: 30px;
+        }
+        .terms {
+            font-size: 12px;
+            margin-top: 20px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .header {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .back {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Fadelab</div>
+    <div class="back">vissza</div>
+    <div class="container">
+        <h1>Bejelentkezés</h1>
+        <input type="email" placeholder="E-Mailcím">
+        <input type="password" placeholder="Jelszó">
+        <div>
+            Nincsen még fiókod? <a href="#">regisztráció</a> <br>
+            Elfelejtettem a: <a href="#">jelszavam</a>
+        </div>
+        <h2>VAGY</h2>
+        <div>folytatás ezzel:</div>
+        <div class="social-buttons">
+            <div class="social-button">
+                <img src="képek/image8-2__1_-removebg-preview 1.png" alt="Google">
+                GOOGLE
+            </div>
+            <div class="social-button">
+                <img src="képek/Apple-Logo-removebg-preview 1.png" alt="Apple">
+                APPLE
+            </div>
+            <div class="social-button">
+                <img src="képek/facebook_logo-removebg-preview 1.png" alt="Facebook">
+                FACEBOOK
+            </div>
+        </div>
+        <div class="terms">
+            A bejelentkezéssel vagy fiók létrehozásával Ön elfogadja az Általános Szerződési Feltételeket és az Adatvédelmi Szabályzatot.
+        </div>
+    </div>
+</body>
+</html>

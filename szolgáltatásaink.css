@@ -29,3 +29,9 @@ img{
 .navbar-brand{
     color: white;
 }
+.container{
+    background-color: black;
+    color: white;
+    max-width: 100%;
+    background-image: url(./képek/10133\ 3.png)
+}
