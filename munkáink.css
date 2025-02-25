@@ -20,15 +20,15 @@ img{
     background-color: black;
     text-align: center;
     
-    
 }
 #navbarNav a{
-    color: whitesmoke;
+    color: white;
 
 }
 .navbar-brand{
     color: white;
 }
+
 .container{
     background-color: black;
     color: white;
