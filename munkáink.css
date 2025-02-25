@@ -75,6 +75,20 @@ img{
     font-size: 14px;
 }
 
+.Munkáink h5{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.Munkáink{
+    background-color: black;
+    width: auto;
+}
+
+.képek{
+    background-color: black;
+}
 .kepek{
     background-color: black;
     flex-direction: column;

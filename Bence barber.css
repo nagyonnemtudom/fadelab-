@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.btn{
+    color: white;
+}
+.fadelab{
+color: white;
+}
+img{
+    height: 500px;
+}
+    
+.container-fluid {
+    background-color: black;
+    text-align: center;  
+}
+#navbarNav a{
+    color: white;
+
+}
+.navbar-brand{
+    color: white;
+}
+.container{
+    background-color: black;
+    color: white;
+    max-width: 100%;  
+}
+
+.tagok{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+ 
+.tagok img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    border: 5px outset white;
+    background-color: black;
+}
+ 
+.tagok h6{
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: black;
+}
+.container-bence{
+background-color: black;
+text-align: center;
+}
