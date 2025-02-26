@@ -1,5 +1,6 @@
 body{
     background-color: black;
+
 }
 .navbar{
     background-color: black;
@@ -35,7 +36,16 @@ img{
 }
 .container{
     background-color: black;
+    text-indent: 5px;
+    margin-top: 50px;
     color: white;
-    max-width: 100%;
-    background-image: url(./képek/10133\ 3.png)
+    background-image: url(./képek/10133\ 3.png);
+    width: auto;
+    height: 350px;
+    max-width: 85%;
+}
+
+.akciok{
+    margin-top: 25px;
+    margin-right: 20px;
 }
