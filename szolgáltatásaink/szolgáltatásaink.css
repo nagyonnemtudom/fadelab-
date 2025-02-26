@@ -39,3 +39,7 @@ img{
     max-width: 100%;
     background-image: url(./képek/10133\ 3.png)
 }
+.navbar-toggler{
+    background-color: rgb(85, 85, 85);
+    
+}

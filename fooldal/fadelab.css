@@ -38,3 +38,7 @@ img{
     color: white;
     max-width: 100%;
 }
+.navbar-toggler{
+    background-color: rgb(85, 85, 85);
+    
+}
