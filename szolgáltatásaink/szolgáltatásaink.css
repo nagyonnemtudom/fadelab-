@@ -1,8 +1,8 @@
 body{
-    background-color: black;
+    background-color: #483C32;
 }
 .navbar{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     height: 50px;
 }
@@ -21,7 +21,7 @@ img{
 }
     
 .container-fluid {
-    background-color: black;
+    background-color: #483C32;
     text-align: center;
     
     
@@ -34,12 +34,12 @@ img{
     color: white;
 }
 .container{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     max-width: 100%;
     background-image: url(./képek/10133\ 3.png)
 }
 .navbar-toggler{
-    background-color: rgb(85, 85, 85);
+    background-color:#C19A6B;
     
 }

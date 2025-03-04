@@ -1,8 +1,8 @@
 body{
-    background-color: black;
+    background-color: #483C32;
 }
 .navbar{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     height: 50px;
 }
@@ -21,7 +21,7 @@ img{
 }
     
 .container-fluid {
-    background-color: black;
+    background-color: #483C32;
     text-align: center;
     
     
@@ -34,7 +34,7 @@ img{
     color: white;
 }
 .container{
-    background-color: black;
+    background-color: #483C32;
     color: white;
    max-width: 100%;
     margin: 0;
@@ -43,7 +43,7 @@ img{
     
 }
 .Munkatársaink{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     margin-bottom: 50px;
     font-size: 14px;
@@ -52,7 +52,7 @@ img{
 }
  
 .csapat{
-    background-color: black;
+    background-color: #483C32;
     display: flex;
     justify-content: space-around;
     gap: 10px;
