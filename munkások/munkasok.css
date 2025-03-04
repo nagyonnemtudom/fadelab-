@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.btn{
+    color: white;
+}
+.fadelab{
+color: white;
+}
+img{
+    height: 350px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+    
+.container-fluid {
+    background-color: black;
+    text-align: center;
+    
+    
+}
+#navbarNav a{
+    color: whitesmoke;
+
+}
+.navbar-brand{
+    color: white;
+}
+.container{
+    background-color: black;
+    color: white;
+   max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+    
+}
+.Munkatársaink{
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+ 
+.csapat{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+ 
+.tagok{
+    color: white;
+    text-align: center;
+}
+ 
+.tagok img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+ 
+.tagok h4{
+    margin-top: 5px;
+    font-size: 14px;
+}

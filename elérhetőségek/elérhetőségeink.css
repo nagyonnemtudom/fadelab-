@@ -1,8 +1,8 @@
 body{
-    background-color: black;
+    background-color: #73624A;
 }
 .navbar{
-    background-color: black;
+    background-color: #73624A;
     color: white;
     height: 50px;
 }
@@ -13,11 +13,16 @@ body{
 color: white;
 }
 img{
-    height: 500px;
+    width: 650px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
     
 .container-fluid {
-    background-color: black;
+    background-color: #73624A;
     text-align: center;
     
     
@@ -30,7 +35,7 @@ img{
     color: white;
 }
 p{
-    background-color: black;
+    background-color: #73624A;
     color: white;
     
 }
@@ -60,4 +65,8 @@ p{
 .gmail{
     width: 50px;
     height: 50px; 
+}
+.navbar-toggler{
+    background-color: rgb(85, 85, 85);
+    
 }

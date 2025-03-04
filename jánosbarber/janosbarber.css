@@ -23,7 +23,7 @@ img{
     
 }
 #navbarNav a{
-    color: whitesmoke;
+    color: white;
 
 }
 .navbar-brand{
@@ -32,41 +32,32 @@ img{
 .container{
     background-color: black;
     color: white;
-   max-width: 100%;
-    margin: 0;
-    padding: 0;
+    max-width: 100%;
+    
 
     
 }
-.Munkatársaink{
-    background-color: black;
-    color: white;
-    margin-bottom: 50px;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
-}
- 
-.csapat{
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-}
- 
 .tagok{
     color: white;
     text-align: center;
+    background-color: black;
 }
  
 .tagok img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    border: 7px ridge black;
 }
  
 .tagok h4{
-    margin-top: 5px;
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.container-janos{
+    text-align: center;
+    background-color: black;
+    color: white;
+
+ 
 }
