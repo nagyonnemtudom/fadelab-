@@ -1,9 +1,8 @@
 body{
-    background-color: black;
-
+    background-color: #483C32;
 }
 .navbar{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     height: 50px;
 }
@@ -22,7 +21,7 @@ img{
 }
     
 .container-fluid {
-    background-color: black;
+    background-color: #483C32;
     text-align: center;
     
     
@@ -35,17 +34,14 @@ img{
     color: white;
 }
 .container{
-    background-color: black;
-    text-indent: 5px;
-    margin-top: 50px;
+    background-color: #483C32;
     color: white;
     background-image: url(./képek/10133\ 3.png);
     width: auto;
     height: 350px;
     max-width: 85%;
 }
-
-.akciok{
-    margin-top: 25px;
-    margin-right: 20px;
+.navbar-toggler{
+    background-color:#C19A6B;
+    
 }

@@ -1,8 +1,8 @@
 body{
-    background-color: black;
+    background-color:#483C32;
 }
 .navbar{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     height: 50px;
 }
@@ -23,7 +23,7 @@ img{
 }
     
 .container-fluid {
-    background-color: black;
+    background-color: #483C32;
     text-align: center;
     
     
@@ -36,14 +36,14 @@ img{
     color: white;
 }
 .container{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     max-width: 100%;
 }
 .tagok{
     color: white;
     text-align: center;
-    background-color: black;
+    background-color: #483C32;
 }
  
 .fejkep img{
@@ -63,7 +63,7 @@ img{
 
 .container-akos{
     text-align: center;
-    background-color: black;
+    background-color: #483C32;
     color: white;
     margin-top: 20px;
 }
