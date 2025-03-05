@@ -1,20 +1,24 @@
 body{
     background-color: #483C32;
 }
+
 .navbar{
     background-color: #483C32;
     color: white;
     height: 50px;
 }
+
 .btn{
     color: white;
 }
+
 .fadelab{
 color: white;
 }
+
 img{
     height: 350px;
-    width: 650px;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -23,16 +27,17 @@ img{
 .container-fluid {
     background-color: #483C32;
     text-align: center;
-    
-    
 }
+
 #navbarNav a{
     color: whitesmoke;
 
 }
+
 .navbar-brand{
     color: white;
 }
+
 .container{
     background-color: #483C32;
     color: white;
@@ -40,8 +45,15 @@ img{
     width: auto;
     height: 350px;
     max-width: 85%;
+    margin-top: 25px;
 }
+
 .navbar-toggler{
     background-color:#C19A6B;
-    
+}
+
+.ar{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
 }

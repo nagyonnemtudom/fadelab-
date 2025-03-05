@@ -14,19 +14,21 @@ color: white;
 }
 img{
     height: 350px;
-    width: 550px;
+    width: 450px;
     display: block;
     max-width: 75%;
     margin: 0 auto;
     margin-left: 0 auto;
     margin-right: 0 auto;
 }
+
+.kep{
+    background-color: #5C4033;
+}
     
 .container-fluid {
     background-color: #483C32;
     text-align: center;
-    
-    
 }
 #navbarNav a{
     color: white;
