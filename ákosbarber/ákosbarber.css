@@ -6,6 +6,16 @@ body{
     color: white;
     height: 50px;
 }
+.card{
+    display: flex;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    gap: 0;
+}
 .btn{
     color: white;
 }
@@ -58,6 +68,6 @@ img{
     text-align: center;
     background-color: #483C32;
     color: white;
-
- 
 }
+
+
