@@ -1,59 +1,50 @@
 body{
-    background-color: #483C32;
-}
+    background-color: black;
 
+}
 .navbar{
-    background-color: #483C32;
+    background-color: black;
     color: white;
     height: 50px;
 }
-
 .btn{
     color: white;
 }
-
 .fadelab{
 color: white;
 }
-
 img{
     height: 350px;
-    width: 450px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
     
 .container-fluid {
-    background-color: #483C32;
+    background-color: black;
     text-align: center;
+    
+    
 }
-
 #navbarNav a{
     color: whitesmoke;
 
 }
-
 .navbar-brand{
     color: white;
 }
-
 .container{
-    background-color: #483C32;
+    background-color: black;
+    text-indent: 5px;
+    margin-top: 50px;
     color: white;
     background-image: url(./képek/10133\ 3.png);
     width: auto;
     height: 350px;
     max-width: 85%;
-    margin-top: 25px;
 }
 
-.navbar-toggler{
-    background-color:#C19A6B;
-}
-
-.ar{
-    text-align: center;
+.akciok{
     margin-top: 25px;
-    color: white;
 }

@@ -1,8 +1,8 @@
 body{
-    background-color: #73624A;
+    background-color: black;
 }
 .navbar{
-    background-color: #73624A;
+    background-color: black;
     color: white;
     height: 50px;
 }
@@ -22,7 +22,7 @@ img{
 }
     
 .container-fluid {
-    background-color: #73624A;
+    background-color: black;
     text-align: center;
     
     
@@ -35,7 +35,7 @@ img{
     color: white;
 }
 p{
-    background-color: #73624A;
+    background-color: black;
     color: white;
     
 }
@@ -53,6 +53,10 @@ p{
     margin: 0;
     padding: 0;
     line-height: 1;
+    display: grid;
+    grid-template-columns: 30px auto; /* Icon takes 30px, text takes remaining */
+    align-items: center;
+    gap: 20px;
 }
 .facebooklogo{
     width: 50px;
@@ -67,6 +71,8 @@ p{
     height: 50px; 
 }
 .navbar-toggler{
-    background-color: rgb(85, 85, 85);
+    color: white;
+    background-color:  #C19A6B;
     
 }
+
