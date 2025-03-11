@@ -42,3 +42,15 @@ img{
     background-color: rgb(85, 85, 85);
     
 }
+.csapat{
+    background-color: #483C32;
+    justify-content: space-around;
+    gap: 5px;
+}
+.tagok img{
+    width: 100px;
+    height: 100px;
+    border-radius: 70;
+    border: 5px black; 
+}
+
