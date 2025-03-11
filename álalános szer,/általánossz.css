@@ -32,9 +32,20 @@ h1{
 .Általános{
     color: white;
     text-align: center;
+    margin-top: 75px;
 
 }
 
 h2{
     text-align: center;
+}
+
+.card{
+    margin-top: 35px;
+    background-color: #756456;
+    color: white;
+}
+
+.card-header{
+    text-align: left;
 }

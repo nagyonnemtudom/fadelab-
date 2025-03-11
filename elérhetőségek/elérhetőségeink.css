@@ -1,8 +1,8 @@
 body{
-    background-color: black;
+    background-color: #483C32;
 }
 .navbar{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     height: 50px;
 }
@@ -22,7 +22,7 @@ img{
 }
     
 .container-fluid {
-    background-color: black;
+    background-color: #483C32;
     text-align: center;
     
     
@@ -35,7 +35,7 @@ img{
     color: white;
 }
 p{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     
 }
