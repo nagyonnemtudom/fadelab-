@@ -57,3 +57,7 @@ img{
     margin-top: 25px;
     color: white;
 }
+
+.dropdown button{
+    background-color: #755343;
+}
