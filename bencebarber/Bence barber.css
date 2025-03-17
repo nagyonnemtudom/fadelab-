@@ -69,3 +69,7 @@ img{
     color: white;
     margin-top: 20px;
 }
+
+.dropdown button{
+    background-color: #755343;
+}
