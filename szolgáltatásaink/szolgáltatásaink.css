@@ -41,11 +41,16 @@ img{
 .container{
     background-color: #483C32;
     color: white;
+<<<<<<< HEAD
+    max-width: 100%;
+    background-image: url(../képek/10133\ 3.png)
+=======
     background-image: url(./képek/10133\ 3.png);
     width: auto;
     height: 350px;
     max-width: 85%;
     margin-top: 25px;
+>>>>>>> c261b16f901cc4ee5a5a86aec02359135b2272d2
 }
 
 .navbar-toggler{
