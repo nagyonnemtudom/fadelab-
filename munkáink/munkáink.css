@@ -53,7 +53,6 @@ img{
  
 .csapat{
     background-color: #483C32;
-    display: flex;
     justify-content: space-around;
     gap: 10px;
 }
@@ -84,6 +83,8 @@ img{
 .Munkáink{
     background-color: #483C32;
     width: auto;
+    margin-top: 25px;
+    text-align: center;
 }
 
 .képek{
@@ -111,29 +112,17 @@ img{
     padding-top: 20px;
   }
   
-  /* Control the left side */
-  .left {
-    left: 0;
-    background-color: #111;
-  }
-  
-  /* Control the right side */
-  .right {
-    right: 0;
-    background-color: red;
-  }
-  
-  /* If you want the content centered horizontally and vertically */
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  /* Style the image inside the centered container, if needed */
-  .centered img {
-    width: 150px;
-    border-radius: 50%;
-  }
+.con{
+    display: flex;
+    width: 100%;
+    margin: 0  auto;
+    justify-content: space-between;
+}
+
+.left-side{
+    width: 60%;
+}
+
+.right-side{
+    width: 40%;
+}
