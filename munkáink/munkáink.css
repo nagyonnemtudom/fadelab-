@@ -53,7 +53,6 @@ img{
  
 .csapat{
     background-color: #483C32;
-    display: flex;
     justify-content: space-around;
     gap: 10px;
 }
@@ -84,14 +83,12 @@ img{
 .Munkáink{
     background-color: #483C32;
     width: auto;
+    margin-top: 25px;
+    text-align: center;
 }
 
 .képek{
     background-color: #483C32;
-}
-.kepek{
-    background-color: #483C32;
-    flex-direction: column;
 }
 
 .kepek img{
@@ -103,4 +100,29 @@ img{
 .kepek h4{
     color: white;
     text-align: center;
+}
+
+.split {
+    height: 1000px;
+    width: 65%;
+    display: flex;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+.con{
+    display: flex;
+    width: 100%;
+    margin: 0  auto;
+    justify-content: space-between;
+}
+
+.left-side{
+    width: 60%;
+}
+
+.right-side{
+    width: 40%;
 }
