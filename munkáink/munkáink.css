@@ -104,7 +104,7 @@ img{
 .split {
     height: 1000px;
     width: 65%;
-    position: fixed;
+    display: flex;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
