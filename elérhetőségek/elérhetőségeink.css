@@ -1,5 +1,5 @@
 body{
-    background-color: 		#483C32;
+    background-color: #483C32;
 }
 .navbar{
     background-color: #483C32;
@@ -76,3 +76,7 @@ p{
     
 }
 
+.dropdown button{
+    background-color: #755343;
+}
+ 

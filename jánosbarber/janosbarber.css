@@ -1,8 +1,8 @@
 body{
-    background-color: black;
+    background-color: #483C32;
 }
 .navbar{
-    background-color: black;
+    background-color: #483C32;
     color: white;
     height: 50px;
 }
@@ -17,8 +17,10 @@ img{
 }
     
 .container-fluid {
-    background-color: black;
-    text-align: center;  
+    background-color: #483C32;
+    text-align: center;
+    
+    
 }
 #navbarNav a{
     color: white;
@@ -28,31 +30,36 @@ img{
     color: white;
 }
 .container{
-    background-color: black;
+    background-color: #483C32;
     color: white;
-    max-width: 100%;  
-}
+    max-width: 100%;
+    
 
+    
+}
 .tagok{
     color: white;
     text-align: center;
-    background-color: black;
+    background-color: #483C32;
 }
  
 .tagok img{
     width: 150px;
     height: 150px;
     border-radius: 60%;
-    border: 5px outset white;
-    background-color: black;
+    border: 7px ridge #483C32;
 }
  
-.tagok h6{
+.tagok h4{
     margin-top: 10px;
     font-size: 24px;
-    background-color: black;
 }
-.container-bence{
-background-color: black;
-text-align: center;
+.container-janos{
+    text-align: center;
+    background-color: #483C32;
+    color: white;
+}
+
+.dropdown button{
+    background-color: #755343;
 }

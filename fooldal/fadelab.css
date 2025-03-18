@@ -53,4 +53,18 @@ img{
     border-radius: 70;
     border: 5px black; 
 }
+#map-container {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+iframe {
+    width: 100%;
+    height: 500px;
+    display: block;
+    border: none;
+}
 
+.dropdown button{
+    background-color: #755343;
+}
