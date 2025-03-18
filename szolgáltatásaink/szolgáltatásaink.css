@@ -44,7 +44,7 @@ img{
     background-image: url(./képek/10133\ 3.png);
     width: auto;
     height: 350px;
-    max-width: 85%;
+    max-width: 100%;
     margin-top: 25px;
 }
 
@@ -60,4 +60,8 @@ img{
 
 .dropdown button{
     background-color: #755343;
+}
+
+.container div{
+    text-align: left;
 }
