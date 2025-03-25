@@ -13,7 +13,7 @@ body{
 color: white;
 }
 img{
-    height: 500px;
+    height: 350px;
 }
     
 .container-fluid {
@@ -41,6 +41,7 @@ img{
     color: white;
     text-align: center;
     background-color: #483C32;
+    margin-top: 25px;
 }
  
 .tagok img{
@@ -58,6 +59,7 @@ img{
     text-align: center;
     background-color: #483C32;
     color: white;
+    margin-top: 25px;
 }
 
 .dropdown button{
