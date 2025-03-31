@@ -101,28 +101,13 @@ img{
     color: white;
     text-align: center;
 }
-
-.split {
-    height: 1000px;
-    width: 65%;
-    display: flex;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
   
 .con{
-    display: flex;
+    display: block;
     width: 100%;
     margin: 0  auto;
     justify-content: space-between;
-}
-
-.left-side{
-    width: 60%;
-}
-
-.right-side{
-    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
