@@ -76,3 +76,18 @@ body {
         padding-right: 100px;
         width: 100px;
       }
+
+    .containerjo {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  
+  .contact-info {
+      max-width: 40%;
+  }
+  
+  .opening-hours {
+      max-width: 40%;
+      text-align: right;
+  }
