@@ -1,12 +1,12 @@
 body {
-        background-color: #483C32;
-      }
-      .navbar {
-        background-color: #483C32;
-        color: white;
-        height: 50px;
-        margin-bottom: 22px;
-      }
+   background-color: #483C32;
+  }
+.navbar {
+  background-color: #483C32;
+   color: white;
+  height: 50px;
+  margin-bottom: 22px;
+}
       .btn {
         color: white;
       }
@@ -75,3 +75,18 @@ body {
         color: white;
         padding-right: 100px;
       }
+
+    .containerjo {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  
+  .contact-info {
+      max-width: 40%;
+  }
+  
+  .opening-hours {
+      max-width: 40%;
+      text-align: right;
+  }
