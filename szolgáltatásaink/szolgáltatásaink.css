@@ -60,4 +60,10 @@ img{
 
 .dropdown button{
     background-color: #755343;
+}.card-hajvagas{
+    background-color: #483C32;
+}.card-body a{
+    background-color: #483C32;
+    border: none;
+    color: white;
 }
