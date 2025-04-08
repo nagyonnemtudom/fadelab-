@@ -74,7 +74,6 @@ body {
         background-color: #483C32;
         color: white;
         padding-right: 100px;
-        width: 100px;
       }
 
     .containerjo {
@@ -91,3 +90,6 @@ body {
       max-width: 40%;
       text-align: right;
   }
+  .dropdown button{
+    background-color: #755343;
+}
