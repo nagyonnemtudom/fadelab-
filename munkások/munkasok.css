@@ -88,3 +88,7 @@ img{
     color: white;
 
 }
+.card-body{
+    text-align: center;
+    font-size: 33.5px;
+}
