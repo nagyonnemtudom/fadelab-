@@ -13,8 +13,8 @@ body{
 color: white;
 }
 img{
-    height: 350px;
-    width: 450px;
+    height: 500px;
+    width: 650px;
     display: block;
     max-width: 75%;
     margin: 0 auto;
@@ -23,7 +23,7 @@ img{
 }
 
 .kep{
-    background-color: #5C4033;
+    background-color: #483C32;
 }
     
 .container-fluid {
