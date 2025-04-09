@@ -5,16 +5,16 @@ body{
     background-color: #483C32;
     color: white;
     height: 50px;
-}
-.btn{
-    color: white;
+
 }
 .fadelab{
 color: white;
 }
-img{
-    height: 500px;
-    width: 650px;
+.card-img-top{
+    height: 350px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     max-width: 75%;
     margin: 0 auto;
@@ -38,7 +38,7 @@ img{
 .container{
     background-color: #483C32;
     color: white;
-   max-width: 100%;
+    max-width: 100%;
     margin: 0;
     padding: 0;
 
@@ -60,15 +60,12 @@ img{
 }
  
 .tagok{
-    color: white;
-    text-align: center;
-}
- 
-.tagok img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
     border: 2px solid white;
+    color: white;
+    text-align: center;
 }
  
 .tagok h4{
@@ -90,34 +87,23 @@ img{
     margin-bottom: 25px;
 }
 
-.képek{
-    background-color: #483C32;
-}
-
-.kepek img{
-    width: 300px;
-    height: 300px;
-    gap: 100px;
-    margin: 20px;
-}
-
-.kepek h4{
+h4{
     color: white;
     text-align: center;
-}
-  
-.con{
-    display: grid;
-    width: 100%;
-    margin: 0  auto;
-    justify-content: space-between;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    column-gap: 50px;
 }
 
 .btn{
     background-color: #755343;
     border: none;
+    color: white;
+}
+
+.kep{
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+}
+
+.kep1{
+    height: 424px;
 }
