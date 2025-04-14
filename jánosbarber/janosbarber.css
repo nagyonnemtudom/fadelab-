@@ -13,9 +13,17 @@ body{
 color: white;
 }
 img{
-    height: 350px;
+    height: 500px;
+    width: 650px;
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
-    
+.kep{
+    background-color: #483C32;
+}
 .container-fluid {
     background-color: #483C32;
     text-align: center;
