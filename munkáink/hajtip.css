@@ -115,6 +115,20 @@ h4{
 
 .kepeskepek{
     width: 80%;
+<<<<<<< HEAD
+}
+
+.card-img-top{
+    height: 700px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+ .fejlec{
+    
+ }
+=======
     margin-right: 0 auto;
     margin-left: 0 auto;
     
@@ -126,3 +140,4 @@ h4{
     margin-right: auto;
     justify-content: center;
 }
+>>>>>>> afcb681c29f5b456cde6673a20f13f4e2e3ad279
