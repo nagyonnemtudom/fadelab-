@@ -65,7 +65,8 @@ img{
 
 .container-bence{
     text-align: center;
-    background-color: #483C32;
+    background-color: #473417
+    ;
     color: white;
     margin-top: 20px;
     margin-left: 300px;
@@ -75,3 +76,4 @@ img{
 .dropdown button{
     background-color: #755343;
 }
+
