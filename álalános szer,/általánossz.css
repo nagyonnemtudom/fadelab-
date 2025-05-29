@@ -1,80 +1,62 @@
-body{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #483C32;
-    width: auto;
-    height: auto;
-    margin-left: 120px;
-    margin-right: 120px;
 }
 
-.szoveg{
-    width: 800px;
-    height: 620px;
-    background-color: #756456;
-    color: white;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+.header {
+    font-size: 2rem;
 }
 
-.szovegszovege{
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+.szoveg {
+    margin-top: 2rem;
 }
 
-h1{
-    text-align: center;
-    font-size: 32px;
-}
-
-.header{
-    color: white;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.back{
-    color: white;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.Általános{
-    color: white;
-    text-align: center;
-    margin-top: 50px;
-
-}
-
-h2{
-    text-align: center;
-}
-
-.card{
-    margin-top: 35px;
-    background-color: #756456;
+.szovegszovege h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
     color: white;
 }
 
-.card-header{
-    text-align: left;
-}
-
-h2{
+.szovegszovege h3, .szovegszovege h4, .szovegszovege h5 {
+    margin-bottom: 1rem;
     color: white;
 }
 
-p{
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.mt-4{
     color: white;
 }
 
-p{
-    margin-left: 20px;
+@media (max-width: 768px) {
+    .header {
+        font-size: 1.5rem;
+    }
+
+    .szovegszovege h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 1.2rem;
+    }
+
+    .szovegszovege h1 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
 }
