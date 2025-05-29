@@ -46,7 +46,7 @@ color: white;
 }
 .Munkatársaink{
     background-color: #483C32;
-    color: whitesmoke;
+    color: white;
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.5;
@@ -99,21 +99,23 @@ h4{
 }
 
 .kep{
-    width: 90%;
+    width: 100%;
     height: auto;
     object-fit: contain;
+    margin: auto;
 }
 
 .kep1{
     height: 424px;
 }
 
-.sorharom {
+.sorharom{
     margin-top: 20px;
 }
 
 .kepeskepek{
     width: 80%;
+<<<<<<< HEAD
 }
 
 .card-img-top{
@@ -126,3 +128,16 @@ h4{
  .fejlec{
     
  }
+=======
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    
+    
+}
+
+.keptelenkepek{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+>>>>>>> afcb681c29f5b456cde6673a20f13f4e2e3ad279
