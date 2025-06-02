@@ -23,13 +23,10 @@ body{
 color: white;
 }
 img{
-    height: 500px;
-    width: 650px;
+    height: auto;
+    width: 100%;
     display: block;
-    max-width: 100%;
     margin: 0 auto;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
 }
 
 .kep{
@@ -72,6 +69,10 @@ img{
     margin-bottom: 25px;
     color: white;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%
 }
 
 .container-akos{
@@ -82,5 +83,25 @@ img{
 .dropdown button{
     background-color: #755343;
 }
+@media (max-width: 768px) {
+    img {
+        width: 90%; 
+    }
 
+    .fejkep img {
+        width: 120px; 
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 100%; 
+    }
+
+    .fejkep img {
+        width: 100px; 
+        height: 100px;
+    }
+}
 
