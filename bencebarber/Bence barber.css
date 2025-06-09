@@ -1,5 +1,11 @@
-body{
-    background-color:#483C32;
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #3d1f00, #4e342e, #6d4c41, #3e2723);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  font-family: Arial, sans-serif;
+  color: white;
 }
 .navbar{
     background-color: #483C32;
@@ -23,7 +29,13 @@ img{
 }
 
 .kep{
-    background-color: #483C32;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #3d1f00, #4e342e, #6d4c41, #3e2723);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  font-family: Arial, sans-serif;
+  color: white;
 }
     
 .container-fluid {
@@ -38,9 +50,13 @@ img{
     color: white;
 }
 .container{
-    background-color: #483C32;
-    color: white;
-    max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #3d1f00, #4e342e, #6d4c41, #3e2723);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  font-family: Arial, sans-serif;
+  color: white; 
 }
 .tagok{
     color: white;
@@ -65,15 +81,31 @@ img{
 
 .container-bence{
     text-align: center;
-    background-color: #473417
-    ;
-    color: white;
-    margin-top: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: nevUp 1s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 .dropdown button{
     background-color: #755343;
 }
 
+@keyframes nevUp{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
